@@ -1,0 +1,48 @@
+.outline{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 94vh;
+    width: 30vw;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+
+.outline:hover{
+    border: 1px solid green;
+}
+
+.headline{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.name{
+    font-size: 1.5rem;
+}
+
+.myimg{
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    object-position: bottom;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+
+}
+
+.designation{
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px){
+    .outline{width:94vw; margin-left:3vw; margin-right: 3vw;}
+}
